@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Yara-Rules/rules.svg)](https://travis-ci.org/Yara-Rules/rules)
+
 # Project
 
 This project covers the need of a group of IT Security Researches to have a single repository where different Yara signatures are compiled, classified and kept as up to date as possible, and begin as an open source community for collecting Yara rules. Our Yara ruleset is under the GNU-GPLv2 license and open to any user or organization, as long as you use it under this license.
@@ -28,9 +30,18 @@ The available packages in Ubuntu 14.04 LTS default repositories are too old.  Yo
 
 In this section you will find Yara Rules aimed to detect anti debug and anti virtualization techniques used by malware to evade automated analyisis.
 
+## Antidebug/AntiVM
+
+In this section you will find Yara Rules specialised on the identification of specifics CVE
+
 ## Crypto
 
 In this section you will find Yara rules aimed to detect the existence of cryptographic algoritms.
+
+## Exploit Kits
+
+In this section you will find Yara rules aimed to detect the existence of Exploit Kits.
+
 
 ## Malicious Documents
 
@@ -38,15 +49,27 @@ In this section you will find Yara Rules to be used with documents to find if th
 
 ## Malware 
 
-In this section you will find Yara rules specialised on the indentification of well-known malware.
+In this section you will find Yara rules specialised on the identification of well-known malware.
 
 ## Packers
 
 In this section you will find Yara Rules aimed to detect well-known sofware packers, that can be used by malware to hide itself.
 
+## Webshells
+
+In this section you will find Yara rules specialised on the identification of well-known webshells.
+
+## Email
+
+In this section you will find Yara rules specialised on the identification of malicious e-mails.
+
 ## Malware Mobile
 
 In this section you will find Yara rules specialised on the indentification of well-known mobile malware.
+
+Many rules in this section use Androguard module developed by people at https://koodous.com/. 
+
+You can get it, along with installation instructions, at https://github.com/Koodous/androguard-yara
 
 # Contact 
 
